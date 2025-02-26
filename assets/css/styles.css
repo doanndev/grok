@@ -69,6 +69,11 @@ body {
   border-bottom: 2px solid #a95b95;
 }
 
+.nav-link span a {
+  text-decoration: none;
+  color: inherit;
+}
+
 .nav-button button {
   background-color: #a55a8b;
   color: white;
@@ -96,7 +101,7 @@ body {
 }
 
 .mobile-menu {
-    display: none;
+  display: none;
 }
 
 @media (max-width: 768px) {
@@ -117,7 +122,7 @@ body {
 
   .mobile-menu {
     position: absolute;
-    top: -500px;
+    top: -800px;
     left: 0;
     width: 100%;
     background-color: #0b0c23bf;
